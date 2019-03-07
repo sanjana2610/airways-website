@@ -1,0 +1,202 @@
+
+.box {
+  /* Choose the animation */
+  animation-name: movingBox;
+
+  /* The animation’s duration */
+  animation-duration: 3000ms;
+
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+}
+
+@keyframes movingBox {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0.9;
+  }
+
+  25% {
+    opacity: 0.9;
+  }
+
+
+  100% {
+    transform: translate(1200px, 0px);
+    opacity: 0;
+  }
+}
+
+
+.box {
+    -webkit-animation-name: movingBox;
+    -webkit-animation-duration: 10000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+
+    -moz-animation-name: movingBox;
+    -moz-animation-duration: 10000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+
+    -ms-animation-name: movingBox;
+    -ms-animation-duration: 10000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: alternate;
+
+    -o-animation-name: movingBox;
+    -o-animation-duration: 10000ms;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: alternate;
+
+    animation-name: movingBox;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    width: 100px;
+    height: 100px;
+    background: rgb(228, 24, 218);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+@-webkit-keyframes movingBox {
+  0% {
+    -webkit-transform: -webkit-translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0.9;
+  }
+
+  25% {
+    opacity: 0.5;
+  }
+
+  50% {
+    -webkit-transform: -webkit-translate(500px, 0px);
+    transform: translate(500px, 0px);
+    opacity: 0.2;
+  }
+
+  100% {
+    -webkit-transform: -webkit-translate(1200px, 0px);
+    transform: translate(1200px, 0px);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes movingBox {
+  0% {
+    -moz-transform: -moz-translate(0, 0);
+    opacity: 0.9;
+  }
+
+  25% {
+    opacity: 0.5;
+  }
+
+  100% {
+    -moz-transform: -moz-translate(1200px, 0px);
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes movingBox {
+  0% {
+    -ms-transform: -ms-translate(0, 0);
+    opacity: 0.9;
+  }
+
+  25% {
+    opacity: 0.5;
+  }
+
+  50% {
+    -ms-transform: -ms-translate(500px, 0px);
+    opacity: 0.2;
+  }
+
+  100% {
+    -ms-transform: -ms-translate(1200px, 0px);
+    opacity: 0;
+  }
+}
+
+@-o-keyframes movingBox {
+  0% {
+    -o-transform: -o-translate(0, 0);
+    opacity: 0.9;
+  }
+
+  25% {
+    opacity: 0.5;
+  }
+
+  50% {
+    -o-transform: -o-translate(500px, 0px);
+    opacity: 0.2;
+  }
+
+  100% {
+    -o-transform: -o-translate(1200px, 0px);
+    opacity: 0;
+  }
+}
+.push-spaces
+{
+    height: 600px;
+   
+}
+
+
+  @media (min-width: 576px) { 
+    .pad{
+        padding-left: 5%;
+    }
+   }
+   
+  @media (min-width: 768px) {
+    .pad{
+        padding-left: 30%;
+    }
+    }
+  
+  
+  @media (min-width: 992px) {
+    .pad{
+        padding-left: 40%;
+    }
+   }
+  
+  @media (min-width: 1200px) {
+    .pad{
+        padding-left: 42%;
+    }
+  }
+  .fa-instagram {
+    background: #f00fac;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-github {
+    background: #fbfcfd;
+  
+  }
+  .fa-twitter {
+    background: rgb(238, 234, 16);
+    color: white;
+  }
+.btnmargin{
+margin:1%;
+}

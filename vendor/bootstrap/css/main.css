@@ -1,0 +1,57 @@
+.push-spaces
+{
+    height: 600px;
+   
+}
+footer{
+    min-height: 200px;
+    padding: 5%;
+}
+
+  @media (min-width: 576px) { 
+    .pad{
+        padding-left: 5%;
+    }
+   }
+   
+  @media (min-width: 768px) {
+    .pad{
+        padding-left: 30%;
+    }
+    }
+  
+  
+  @media (min-width: 992px) {
+    .pad{
+        padding-left: 40%;
+    }
+   }
+  
+  @media (min-width: 1200px) {
+    .pad{
+        padding-left: 42%;
+    }
+  }
+  .fa-instagram {
+    background: #f00fac;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-github {
+    background: #fbfcfd;
+  
+  }
+  .fa-twitter {
+    background: rgb(238, 234, 16);
+    color: white;
+  }
+.btnmargin{
+margin:1%;
+}
